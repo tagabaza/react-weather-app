@@ -13,13 +13,12 @@ const Page = () => {
     const {isError, isLoading, forecast, submitRequest} = useForecast();
 
     const onSubmit = (value) => {
-        console.log({value})
         submitRequest(value);
     }
     return ( 
         <Fragment>
             <Header />
-            <div className={styles.box}>
+            <div className={`${styles.box} position-relative`}>
                 {!isLoading && <Form submitSearch={onSubmit} />} 
                 {isError && <Error message={isError}/>}
                 {isLoading && <Loader />}
