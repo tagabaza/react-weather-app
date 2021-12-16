@@ -1,5 +1,3 @@
-# React Weather Application
-
 <h1 align="center"> React Weather Application </h1>
 
 <p align="center">  
@@ -28,7 +26,7 @@ This was the first project I've built that consumes an external API so I got to 
             const {data} = await axios(`${REQUEST_URL}/search`, { params: { query: location }});
 ```
 
-I also got to make good use of the special propTypes property to make sure the data that I am recieving is valid. I was able to check the type of particular responses and in some instances make the response type required before moving on.
+I also got to make good use of the special propTypes property to make sure the data that I am recieving is valid. I was able to check the type of particular responses and when an invalid value was provided for a prop, a warning was shown in the JavaScript console will helped with debugging the application.
 
 ```js
 CurrentDay.propTypes = {
@@ -37,6 +35,10 @@ CurrentDay.propTypes = {
   temperature: PropTypes.number.isRequired,
 };
 ```
+
+### Potential Future Features
+
+Using local storage I could make a way for the user to select and favourite different locations so that when the user first opens up the app, he is met with the weather for those selected locations. Then if the user wishes to find out the weather for a different location they can do so as opposed to forcing them to input a location everytime they run the app.
 
 ## Get started
 
