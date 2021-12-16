@@ -8,7 +8,7 @@ A web application that uses the MetaWeather API to gather and display weather re
   <img src="./src/images/screenshot.png"/>
 </div>
 
-### Built with
+## Built with
 
 - HTML5, CSS, JAVASCRIPT
 - [React](https://reactjs.org/) - JS library
@@ -17,7 +17,7 @@ A web application that uses the MetaWeather API to gather and display weather re
 - AXIOS
 - MOMENTJS
 
-### What I learned
+## What I learned
 
 This was the first project I've built that consumes an external API so I got to grips with a lot of new concepts as a result. I used the library Axios to get support for requests/responses and the conversion of data into JSON format. Axios is also promise-based which allowed me to make good use of async and await for more readable asynchronous code.
 
@@ -36,7 +36,7 @@ CurrentDay.propTypes = {
 };
 ```
 
-### Potential Future Features
+## Potential Future Features
 
 Using local storage I could make a way for the user to select and favourite different locations so that when the user first opens up the app, he is met with the weather for those selected locations. Then if the user wishes to find out the weather for a different location they can do so as opposed to forcing them to input a location everytime they run the app.
 
