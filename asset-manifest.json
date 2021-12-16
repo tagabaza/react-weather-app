@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/react-weather-app/static/css/main.3a948248.chunk.css",
-    "main.js": "/react-weather-app/static/js/main.8674be2b.chunk.js",
-    "main.js.map": "/react-weather-app/static/js/main.8674be2b.chunk.js.map",
+    "main.css": "/react-weather-app/static/css/main.c846d7fd.chunk.css",
+    "main.js": "/react-weather-app/static/js/main.5bd5139b.chunk.js",
+    "main.js.map": "/react-weather-app/static/js/main.5bd5139b.chunk.js.map",
     "runtime-main.js": "/react-weather-app/static/js/runtime-main.2f363f51.js",
     "runtime-main.js.map": "/react-weather-app/static/js/runtime-main.2f363f51.js.map",
     "static/css/2.1dd1e755.chunk.css": "/react-weather-app/static/css/2.1dd1e755.chunk.css",
-    "static/js/2.53a7e7fa.chunk.js": "/react-weather-app/static/js/2.53a7e7fa.chunk.js",
-    "static/js/2.53a7e7fa.chunk.js.map": "/react-weather-app/static/js/2.53a7e7fa.chunk.js.map",
+    "static/js/2.1156ce54.chunk.js": "/react-weather-app/static/js/2.1156ce54.chunk.js",
+    "static/js/2.1156ce54.chunk.js.map": "/react-weather-app/static/js/2.1156ce54.chunk.js.map",
     "static/js/3.365ec6c2.chunk.js": "/react-weather-app/static/js/3.365ec6c2.chunk.js",
     "static/js/3.365ec6c2.chunk.js.map": "/react-weather-app/static/js/3.365ec6c2.chunk.js.map",
     "index.html": "/react-weather-app/index.html",
     "static/css/2.1dd1e755.chunk.css.map": "/react-weather-app/static/css/2.1dd1e755.chunk.css.map",
-    "static/css/main.3a948248.chunk.css.map": "/react-weather-app/static/css/main.3a948248.chunk.css.map",
-    "static/js/2.53a7e7fa.chunk.js.LICENSE.txt": "/react-weather-app/static/js/2.53a7e7fa.chunk.js.LICENSE.txt",
-    "static/media/CurrentDay.module.css": "/react-weather-app/static/media/mountain.ef3e6e15.jpeg"
+    "static/css/main.c846d7fd.chunk.css.map": "/react-weather-app/static/css/main.c846d7fd.chunk.css.map",
+    "static/js/2.1156ce54.chunk.js.LICENSE.txt": "/react-weather-app/static/js/2.1156ce54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2f363f51.js",
     "static/css/2.1dd1e755.chunk.css",
-    "static/js/2.53a7e7fa.chunk.js",
-    "static/css/main.3a948248.chunk.css",
-    "static/js/main.8674be2b.chunk.js"
+    "static/js/2.1156ce54.chunk.js",
+    "static/css/main.c846d7fd.chunk.css",
+    "static/js/main.5bd5139b.chunk.js"
   ]
 }
