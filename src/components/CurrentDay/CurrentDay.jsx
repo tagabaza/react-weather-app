@@ -9,7 +9,7 @@ const imgUrlBase = 'https://www.metaweather.com/static/';
 
 const CurrentDay = ({weekday, date, location, temperature, weatherIcon, weatherDescription}) => (
     <div className="d-flex">
-        <div className={styles.img}></div>
+        {/* <div className={styles.img}></div> */}
         <div className={styles.gradient}></div>
         <div className={`${styles.cardInner} d-flex flex-column  pl-3 pt-4 pb-2`}>
             <div>
