@@ -1,15 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import locationIcon from './assets/location-pin.png';
 import styles from './CurrentDay.module.css';
 
-const imgUrlBase = 'https://www.metaweather.com/static/';
 
 
 const CurrentDay = ({weekday, date, location, temperature, weatherIcon, weatherDescription}) => (
     <div className="d-flex">
-        {/* <div className={styles.gradient}></div> */}
         <div className={`${styles.cardInner} d-flex flex-column pt-5 pb-2`}>
             <div className="mb-3">
                 <h5 className="currentDayTitle">{weekday} {date}</h5>
