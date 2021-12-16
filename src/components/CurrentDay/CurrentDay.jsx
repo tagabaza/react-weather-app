@@ -9,24 +9,15 @@ const imgUrlBase = 'https://www.metaweather.com/static/';
 
 const CurrentDay = ({weekday, date, location, temperature, weatherIcon, weatherDescription}) => (
     <div className="d-flex">
-        {/* <div className={styles.img}></div> */}
-        <div className={styles.gradient}></div>
-        <div className={`${styles.cardInner} d-flex flex-column  pl-3 pt-4 pb-2`}>
-            <div>
-                <h2 className="currentDayTitle "> 
-                    {weekday} 
-                </h2>
-                <h4 className="font-weight-lighter">
-                    {date}
-                </h4>
-                <h2 className="font-weight-bold mb-1">{location}</h2>
+        {/* <div className={styles.gradient}></div> */}
+        <div className={`${styles.cardInner} d-flex flex-column pt-5 pb-2`}>
+            <div className="mb-3">
+                <h5 className="currentDayTitle">{weekday} {date}</h5>
+                <h2 className="font-weight-bold mb-3 mt-3 text-center">{location} ({temperature}°C)</h2>
             </div>
 
-            <div>
-                <img width="45" src={weatherIcon} />
-                <h2 className="font-weight-bold mb-1">
-                    <span>{temperature}</span>°C
-                </h2>
+            <div className="col-xs-12 text-center mt-1">
+                <img className="mb-3" width="65" src={weatherIcon} />
                 <h5 className="font-weight-lighter">{weatherDescription}</h5>
             </div>
         </div>

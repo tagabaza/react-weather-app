@@ -11,26 +11,19 @@ import CurrentDayDescription from '../CurrentDayDescription/CurrentDayDescriptio
 
 const Forecast = ({forecast}) => (
     <Container className={styles.box}>
-        <Row>
+        <Row className={styles.tbRow}>
             <Col xs={12} md={6}>
                 <div className={styles.card}>
                     <CurrentDay {...forecast.currentDay} />
-                    
-
                 </div>
             </Col>
             <Col xs={12} md={6} className="mt-4 d-flex flex-column justify-content-between">
                 <CurrentDayDescription forecast={forecast.currentDayDetails} />
             </Col>
-            
-            
-            
         </Row>
         <Row xs={12} className="mt-3">
                 <UpcomingDaysForecast days={forecast.upcomingDays} />
         </Row>
-            
-        
     </Container>
 );
 
